@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border-top: 1px solid #dec129;
+  background: linear-gradient(
+    to top,
+    #dec129,
+    #fff,
+    #fff,
+    #fff,
+    #fff,
+    #fff,
+    #fff,
+    #fff
+  );
+}
+
+footer h3 {
+  margin-bottom: 1rem;
+}
+
+footer span {
+  font-weight: bold;
+  color: #dec129;
+}

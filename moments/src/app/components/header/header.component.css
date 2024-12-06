@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #dec129;
+  background: linear-gradient(to bottom, #dec129, #fff, #fff, #fff, #fff, #fff);
+}
+
+.brand,
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+
+img {
+  width: 60px;
+  margin-right: 0.4rem;
+}
+
+.brand h2 {
+  transition: 0.4s;
+}
+
+.brand h2:hover {
+  color: #dec129;
+}
+
+.links li {
+  list-style: none;
+  margin-right: 0.4rem;
+}
+
+.links li a {
+  padding: 0.2rem 0.4rem;
+}
+
+#add a {
+  color: #dec129;
+}
+
+#add a:hover {
+  background-color: #ddd;
+}

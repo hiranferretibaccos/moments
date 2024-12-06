@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria;
+  color: #444;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #dec129;
+}
+
+/* FORM */
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.form-group input,
+.form-group textarea {
+  font-size: 0.8rem;
+  padding: 0.6rem;
+  color: #777;
+  outline: none;
+}
+
+.border-yellow {
+  border: 1px solid #aaa;
+}
+
+.border-yellow:focus {
+  border: 1px solid #dec129;
+}
+
+input[type="file"] {
+  margin-left: -8px;
+}
+
+.button-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+input[type="submit"] {
+  background-color: #ddd;
+  border: 2px solid transparent;
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+input[type="submit"]:hover {
+  background-color: transparent;
+  border-color: #dec129;
+  color: #dec129;
+}
+
+.validation-error p {
+  margin-top: 0.4rem;
+  color: #dc3545;
+  border-left: 3px solid #dc3545;
+  padding-left: 0.2rem;
+}
+
+/* BUTTONS */
+.edit-btn,
+.remove-btn {
+  background-color: #fff;
+  border: 1px solid #fff;
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+a fa-icon,
+button fa-icon {
+  margin-right: 0.2rem;
+  margin: auto;
+}
+
+.edit-btn,
+.edit-btn path {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.edit-btn:hover,
+.edit-btn:hover path {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.remove-btn,
+.remove-btn path {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.remove-btn:hover,
+.remove-btn:hover path {
+  background-color: #dc3545;
+  color: #fff;
+}
